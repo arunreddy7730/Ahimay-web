@@ -1,0 +1,54 @@
+.services {
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: black;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.services h2 span {
+    color: #FFA500; /* Or your desired color */
+}
+
+.parent-card {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.service-card {
+    width: 500px;
+    height: 500px; /* Fixed height to allow scrolling */
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 20px;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.service-card p {
+    color: #666;
+    margin-bottom: 10px;
+}

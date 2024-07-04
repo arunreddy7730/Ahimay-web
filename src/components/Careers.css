@@ -1,0 +1,52 @@
+.careers-container {
+    background-color: #0b0c10; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border-bottom: rgb(6, 171, 236);
+  }
+  
+  .careers-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffaa00; /* Yellow color */
+  }
+  
+  .careers-subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .careers-main-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .highlight {
+    color: #ffaa00; /* Yellow color */
+  }
+  
+  .careers-description {
+    font-size: 16px;
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .careers-email {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .email-link {
+    color: #ffaa00; /* Yellow color */
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  

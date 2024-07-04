@@ -1,0 +1,86 @@
+/* Clients.css */
+.clients-section {
+    background-color: #10172a; /* Dark background color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.clients-intro {
+    margin-bottom: 40px;
+}
+
+.clients-intro h3 {
+    font-size: 1.5em;
+    color: #FFA500; /* Accent color */
+    margin-bottom: 20px;
+}
+
+.clients-intro p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.clients-feedback h2 {
+    font-size: 2.5em;
+    color: white;
+    margin-top: 40px;
+}
+
+.clients-feedback h2 span {
+    color: #FFA500; /* Accent color */
+}
+
+.testimonial {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 15px; /* Adjusted padding */
+    border-radius: 8px;
+    margin: 20px auto; /* Centered and added some margin */
+    text-align: left;
+    position: relative;
+    max-width: 1500px; /* Set maximum width */
+    font-size: 0.9em; /* Reduced font size */
+}
+
+.testimonial-text {
+    font-size: 1.2em; /* Keep font size unchanged */
+    color: red;
+    margin-bottom: 15px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-author img {
+    width: 40px; /* Keep image size unchanged */
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-info {
+    font-size: 1em; /* Keep font size unchanged */
+    color: #666;
+}
+
+.author-info strong {
+    display: block;
+    font-size: 1.2em; /* Keep font size unchanged */
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.testimonial-quote-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 2em; /* Keep font size unchanged */
+    color: red;
+}
+
+
+

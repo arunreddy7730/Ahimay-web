@@ -1,0 +1,87 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    z-index: 20;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-div {
+    width: 30%;
+    /* padding: 20px; */
+  }
+  
+  .logo {
+    width: 100%;
+  }
+  
+  .right-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .contact-info {
+    display: flex;
+    padding: 0px 0px 0px 900px;
+  }
+  
+  .email, .phone {
+    color: orange;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    
+  }
+  .email_text, .phone_text{
+    color: white;
+  }
+  
+  .menu-section {
+    width: 100%;
+    display: flex;
+  }
+  
+  .menu-section ul{
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 200px 15px 15px;
+    width: 70%;
+  }
+  
+  .menu-section ul li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  .menu-section ul li a:hover {
+    color: #ff8c00;
+    font-size: 20px;
+  }
+  
+  .icon-section {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  
+  }
+ 
+
+  
+  .icon-section a {
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .icon-section a:hover {
+    color: #ff8c00;
+  }
+  
+  

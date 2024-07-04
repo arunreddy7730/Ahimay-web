@@ -1,0 +1,28 @@
+/* src/Card.css */
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px); /* Three cards per row */
+    box-sizing: border-box;
+  }
+  .card:hover{
+    background-color: orange;
+  }
+  
+  .card img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .card h3 {
+    color: #0c0f18;
+    margin-top: 10px;
+  }
+  
+  
+  

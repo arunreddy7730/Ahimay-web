@@ -1,0 +1,23 @@
+.container {
+    background-color: #0d1117;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    margin-top: 80px;
+}
+
+.title {
+    color: #f18c00;
+}
+
+.subtitle {
+    color: #ffffff;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.mission-values {
+    margin-left: 1rem;
+}
